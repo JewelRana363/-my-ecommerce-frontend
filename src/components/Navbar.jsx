@@ -75,6 +75,8 @@ export default function Navbar({ cartCount = 0, wishlistCount = 0 }) {
           <Link to="/categories" className="hover:text-blue-400 font-medium transition">Categories</Link>
           <Link to="/deals" className="hover:text-blue-400 font-medium transition text-yellow-400">Hot Deals 🔥</Link>
           <Link to="/contact" className="hover:text-blue-400 font-medium transition">Contact Us</Link>
+          <Link to="/admin" className="hover:text-blue-400 font-bold transition text-blue-400 border border-blue-500/40 px-2 py-0.5 rounded">Admin Panel</Link>
+
         </div>
       </div>
 
